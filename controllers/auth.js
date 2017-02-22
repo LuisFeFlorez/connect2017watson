@@ -77,7 +77,7 @@ module.exports = {
 		var post_data = querystring.stringify({
 			'code' : req.body.code,
 			'grant_type': 'authorization_code',
-			'client_id': 'Error getting the information, please try again.',
+			'client_id': 'app_23191556_1487781137152',
 			'client_secret': 'fe10c459be75c32eaaab7d881375703763e78fa121662db2e73d4ee0350ace02f464141ef756a7de8f113a8750714685393e2cd53711624b00b2776c7b6a2b049412adb1dcf632aebe63574ee029ddf121ea7ea35f9cdc1eba8e70708b5896e5a6e82ab224e3201297d4c78b513302669638f367a9bdb8388f938eb308a1f3a',
 			'callback_uri' : 'https://connect2017watson.mybluemix.net/#/auth/ibm-connections-cloud/callback'
 		});

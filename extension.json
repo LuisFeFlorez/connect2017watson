@@ -1,12 +1,12 @@
 https://apps.na.collabserv.com/appregistry/api/v1/extensions
 
 {
-  "name": "Actualizaciones Recientes",
-  "description": "Muro con noticiaas de la comunidad para la página de entrada",
+  "name": "Connect 2017 Watson",
+  "description": "Connect 2017 Watson - Demo Coomunity App to use as starting point",
   "type":"community_widget",
   "urls":{},
   "payload": {
-    "defId": "Actualizaciones Recientes",
+    "defId": "Connect 2017 Watson",
     "showInPalette": "true",
     "primaryWidget": "true",
     "modes": "view",
@@ -14,7 +14,7 @@ https://apps.na.collabserv.com/appregistry/api/v1/extensions
     "url": "https://apps.na.collabserv.com/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
     "itemSet": [
       {
-        "value": "https://familiastream.mybluemix.net",
+        "value": "https://connect2017watson.mybluemix.net",
         "name": "url"
       },
       {
