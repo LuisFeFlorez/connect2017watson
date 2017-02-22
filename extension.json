@@ -1,0 +1,30 @@
+https://apps.na.collabserv.com/appregistry/api/v1/extensions
+
+{
+  "name": "Actualizaciones Recientes",
+  "description": "Muro con noticiaas de la comunidad para la página de entrada",
+  "type":"community_widget",
+  "urls":{},
+  "payload": {
+    "defId": "Actualizaciones Recientes",
+    "showInPalette": "true",
+    "primaryWidget": "true",
+    "modes": "view",
+    "themes": "wpthemeThin wpthemeNarrow wpthemeWide wpthemeBanner",
+    "url": "https://apps.na.collabserv.com/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
+    "itemSet": [
+      {
+        "value": "https://familiastream.mybluemix.net",
+        "name": "url"
+      },
+      {
+        "value": "100%",
+        "name": "width"
+      },
+      {
+        "value": "400px",
+        "name": "height"
+      }
+    ]
+  }
+}
