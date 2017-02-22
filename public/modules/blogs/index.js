@@ -31,7 +31,7 @@
             //console.log("BLOGS:::", data);
             $scope.blogs = data;
         }).error(function(status){
-            alert('Se presentó un error al iniciar sesión ' + status);
+            console.log('Se presentó un error al iniciar sesión ' + status);
         });
         
         $scope.procesar = function() {
@@ -69,7 +69,7 @@
                 return data;
             }).error(function(status){
                 console.log("No trajo Blogs error ", status);
-                alert(status);
+                console.log(status);
             });
         };
         

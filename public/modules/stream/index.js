@@ -42,7 +42,7 @@
             .success(function(data) {
                 return data;
             }).error(function(status){
-                alert(status);
+                console.log(status);
             });
         };
         
@@ -51,7 +51,7 @@
             .success(function(data) {
                 return data;
             }).error(function(status){
-                alert(status);
+                console.log(status);
             });
         };
         
